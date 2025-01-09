@@ -44,4 +44,4 @@ You should see the installed version of `flake8` and the installed plugins, incl
 <br/>
 <br/>
 
-(c) <a href="mailto:marco@marcoespinosa.com">Marco Espinosa</a>, 2024
+(c) <a href="mailto:marco@marcoespinosa.com">Marco Espinosa</a>, 2025

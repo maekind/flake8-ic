@@ -1,6 +1,6 @@
 [project]
 name = "flake8-ic"
-version = "0.0.0"
+version = "0.1.0"
 description = "This package provides a plugin for flake8 that checks the usage of ic() function from icecream package."
 readme = "README.md"
 authors = [
@@ -12,6 +12,21 @@ keywords = ["flake8", "plugin", "icecream", "ic", "debugging", "linting", "code 
 dependencies = [
     "flake8>=7.1.1",
     "toml>=0.10.2",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
 ]
 
 [tool.ruff]
