@@ -1,0 +1,28 @@
+name: flake8-ic testing 🧪 and coverage report generation 📝
+
+on:
+  - push
+
+jobs:
+  testing:
+    name: Test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - name: Run Python Tests
+        uses: maekind/github-actions/.github/actions/python-testing-and-coverage@main
+        with:
+          python_version: ${{ matrix.python-version }}
+          coverage_path: "./src"
+
+  upload-coverage:
+    name: Upload Coverage
+    needs: testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload Code Coverage
+        uses: maekind/github-actions/.github/actions/upload-codecov-coverage@main
+        with:
+          codecov_token: ${{ secrets.CODECOV_GH_FLAKE8_IC }}
