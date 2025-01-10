@@ -26,3 +26,4 @@ jobs:
         uses: maekind/github-actions/.github/actions/upload-codecov-coverage@main
         with:
           codecov_token: ${{ secrets.CODECOV_GH_FLAKE8_IC }}
+          python_version: "3.13"
