@@ -18,6 +18,7 @@ jobs:
           coverage_path: "./src"
 
   upload-coverage:
+    # Even if test several Python versions, we only need to upload the coverage once
     name: Upload Coverage
     needs: testing
     runs-on: ubuntu-latest
