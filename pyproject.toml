@@ -14,7 +14,7 @@ dependencies = [
     "toml>=0.10.2",
 ]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Environment :: Console",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
@@ -28,6 +28,9 @@ classifiers = [
     "Topic :: Software Development :: Quality Assurance",
     "Topic :: Software Development :: Testing",
 ]
+
+[project.entry-points."flake8.extension"]
+IC100 = "flake8_ic:IcecreamChecker"
 
 [tool.ruff]
 line-length = 88
@@ -44,6 +47,3 @@ dev-dependencies = [
     "pytest>=8.3.4",
     "ruff>=0.9.0",
 ]
-
-[tool.flake8.plugins]
-IC100 = "flake8_ic:IcecreamChecker"
