@@ -1,4 +1,4 @@
-name: flake8-ic testing 🧪 and coverage report generation 📝
+name: Tests 🧪
 
 on:
   - push
