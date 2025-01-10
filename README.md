@@ -25,7 +25,7 @@ The `flake8-ic` plugin ensures clean and production-ready code by identifying an
 
 ---
 
-## Detected Errors
+## 🚨 Detected Errors
 
 The `flake8-ic` plugin checks for the usage of the `ic()` function and related methods from the `icecream` package in your codebase. Below is a list of errors it detects:
 
@@ -36,6 +36,50 @@ The `flake8-ic` plugin checks for the usage of the `ic()` function and related m
 | `IC102`        | Avoid using `ic.enabled()` from the `icecream` package in production code.                          |
 
 ---
+
+### 🚫 Disabling Checks
+
+You can disable specific checks for `flake8-ic` using the `--disable-ic-checks` option. This is useful if you only want to enforce certain rules. The following options are available:
+
+- `IC100`: Disables checks for the `ic()` function.
+- `IC101`: Disables checks for the `ic.disabled()` method.
+- `IC102`: Disables checks for the `ic.enabled()` method.
+
+#### Examples
+
+1. **Disable a Single Check**:
+
+   ```bash
+   flake8 --disable-ic-checks=IC100
+   ```
+
+   This will disable only the `IC100` check.
+
+2. **Disable Multiple Checks**:
+
+   ```bash
+    flake8 --disable-ic-checks=IC100,IC101
+    ```
+
+    This will disable both the `IC100` and `IC101` checks.
+
+3. **Configuration in setup.cfg or tox.ini**:
+   You can set this option in your configuration file to apply it automatically:
+
+   ```bash
+   [flake8]
+   disable-ic-checks = IC100,IC102
+   ```
+
+4. **Configuration in pyproject.toml**:
+   Add the configuration under the [tool.flake8] section:
+
+   ```bash
+   [tool.flake8]
+   disable-ic-checks = "IC100,IC102"
+   ```
+
+By disabling checks, you can tailor the plugin to match your project’s requirements while maintaining a clean and focused codebase.
 
 ## 📦 Installation
 
