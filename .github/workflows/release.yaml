@@ -1,4 +1,4 @@
-name: Create Release ✨ and Publish Python 🐍 distribution 📦 to PyPI
+name: Release ✨ and Publish 📦
 
 on:
   push:
