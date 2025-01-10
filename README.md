@@ -1,32 +1,16 @@
 <!-- Shields -->
 <p align="center">
-  <a href="https://github.com/maekind/flake8-ic/actions/workflows/testing.yaml">
-    <img src="https://img.shields.io/github/actions/workflow/status/maekind/flake8-ic/testing.yaml?style=for-the-badge&label=Tests%20🧪" alt="Testing Workflow Status" hspace="5">
-  </a>
-  <a href="https://codecov.io/gh/maekind/flake8-ic">
-    <img src="https://img.shields.io/codecov/c/github/maekind/flake8-ic?style=for-the-badge&color=yellow&label=COVERAGE%20📊" alt="codecov" hspace="5">
-  </a>
-  <br>
-  <a href="https://github.com/maekind/flake8-ic/actions/workflows/release.yaml">
-    <img src="https://img.shields.io/github/actions/workflow/status/maekind/flake8-ic/release.yaml?style=for-the-badge&label=Release%20and%20Publish%20✨" alt="Deploy Workflow Status" hspace="5">
-  </a>
-  <a href="https://pypi.org/project/flake8-ic">
-    <img src="https://img.shields.io/github/v/release/maekind/flake8-ic?color=blue&label=pypi%20📦&style=for-the-badge" hspace="5">
-  </a>
-  <br>
-  <a href="https://github.com/maekind/flake8-ic/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge&label=license%20📜" hspace="5">
-  </a>
-  <a href="https://github.com/maekind/flake8-ic">
-    <img src="https://img.shields.io/github/repo-size/maekind/flake8-ic?color=red&style=for-the-badge&label=repo%20size%20🗄️" hspace="5">
-  </a>
-  <a href="https://github.com/maekind/flake8-ic">
-    <img src="https://img.shields.io/github/last-commit/maekind/flake8-ic?color=black&style=for-the-badge&label=last%20commit%20⏳" hspace="5">
-  </a>
-  <br>
-  <a href="https://www.python.org/downloads/">
-    <img src="https://img.shields.io/badge/python%20versions%20🐍-3.11%20|%203.12%20|%203.13-lightblue?style=for-the-badge" hspace="5">
-  </a>
+<a href="https://github.com/maekind/flake8-ic/actions/workflows/testing.yaml"><img src="https://img.shields.io/github/actions/workflow/status/maekind/flake8-ic/testing.yaml?style=for-the-badge&label=Tests 🧪" hspace="5"></a>
+<a href="https://codecov.io/gh/maekind/flake8-ic"><img src="https://img.shields.io/codecov/c/github/maekind/flake8-ic?style=for-the-badge&color=yellow&label=COVERAGE 📊" hspace="5"></a>
+<br>
+<a href="https://github.com/maekind/flake8-ic/actions/workflows/release.yaml"><img src="https://img.shields.io/github/actions/workflow/status/maekind/flake8-ic/release.yaml?style=for-the-badge&label=Release and Publish ✨" hspace="5"></a>
+<a href="https://pypi.org/project/flake8-ic"><img src="https://img.shields.io/github/v/release/maekind/flake8-ic?color=blue&label=pypi 📦&style=for-the-badge" hspace="5"></a>
+<br>  
+<a href="https://github.com/maekind/flake8-ic/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge&label=license 📜" hspace="5"></a>
+<a href="https://github.com/maekind/flake8-ic"><img src="https://img.shields.io/github/repo-size/maekind/flake8-ic?color=red&style=for-the-badge&label=repo size 🗄️" hspace="5"></a>
+<a href="https://github.com/maekind/flake8-ic"><img src="https://img.shields.io/github/last-commit/maekind/flake8-ic?color=black&style=for-the-badge&label=last commit ⏳" hspace="5"></a>
+<br>
+<a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python%20versions%20🐍-3.11%20|%203.12%20|%203.13-lightblue?style=for-the-badge" hspace="5"></a>
 </p>
 
 # 🌟 flake8-ic
