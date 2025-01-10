@@ -25,6 +25,18 @@ The `flake8-ic` plugin ensures clean and production-ready code by identifying an
 
 ---
 
+## Detected Errors
+
+The `flake8-ic` plugin checks for the usage of the `ic()` function and related methods from the `icecream` package in your codebase. Below is a list of errors it detects:
+
+| **Error Code** | **Description**                                                                                     |
+|----------------|-----------------------------------------------------------------------------------------------------|
+| `IC100`        | Avoid using `ic()` from the `icecream` package in production code.                                  |
+| `IC101`        | Avoid using `ic.disabled()` from the `icecream` package in production code.                         |
+| `IC102`        | Avoid using `ic.enabled()` from the `icecream` package in production code.                          |
+
+---
+
 ## 📦 Installation
 
 Install the plugin via `pip`:
