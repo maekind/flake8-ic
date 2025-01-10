@@ -30,7 +30,7 @@ classifiers = [
 ]
 
 [project.entry-points."flake8.extension"]
-IC100 = "flake8_ic:IcecreamChecker"
+IC10 = "flake8_ic:IcecreamChecker"
 
 [tool.ruff]
 line-length = 88
