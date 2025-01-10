@@ -81,6 +81,8 @@ You can disable specific checks for `flake8-ic` using the `--disable-ic-checks` 
 
 By disabling checks, you can tailor the plugin to match your project’s requirements while maintaining a clean and focused codebase.
 
+---
+
 ## 📦 Installation
 
 Install the plugin via `pip`:
