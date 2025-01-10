@@ -1,13 +1,13 @@
 <!-- Shields -->
 <p align="center">
-<a href="https://github.com/maeking/flake8-ic/actions/workflows/testing.yaml">
+<a href="https://github.com/maekind/flake8-ic/actions/workflows/testing.yaml">
   <img src="https://img.shields.io/github/actions/workflow/status/maekind/flake8-ic/testing.yaml?style=for-the-badge&label=Tests 🧪" alt="Testing Workflow Status">
 </a>
 <a href="https://codecov.io/gh/maekind/flake8-ic">
   <img src="https://img.shields.io/codecov/c/github/maekind/flake8-ic?style=for-the-badge&color=yellow&label=COVERAGE 📊" alt="codecov">
 </a>
 <br>
-<a href="https://github.com/maeking/flake8-ic/actions/workflows/release.yaml">
+<a href="https://github.com/maekind/flake8-ic/actions/workflows/release.yaml">
   <img src="https://img.shields.io/github/actions/workflow/status/maekind/flake8-ic/release.yaml?style=for-the-badge&label=Release%20and%20Publish%20✨" alt="Deploy Workflow Status">
 </a>
 <a href="https://pypi.org/project/flake8-ic"><img src="https://img.shields.io/github/v/release/maekind/flake8-ic?color=blue&label=pypi  📦&style=for-the-badge" hspace="5"></a>
