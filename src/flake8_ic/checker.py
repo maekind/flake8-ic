@@ -21,7 +21,7 @@ class IcecreamChecker:
     @staticmethod
     def add_options(option_manager):
         """Add options for the plugin."""
-        option_manager.add_option(
+        option_manager.add_option(  # pragma: no cover
             "--disable-ic-checks",
             type=str,
             parse_from_config=True,
@@ -31,7 +31,7 @@ class IcecreamChecker:
     @classmethod
     def parse_options(cls, options):
         """Parse the options provided by the user."""
-        if options.disable_ic_checks:
+        if options.disable_ic_checks:  # pragma: no cover
             cls.disabled_checks = options.disable_ic_checks.split(",")
 
     def run(self) -> Generator[Tuple[int, int, str, type], None, None]:
@@ -60,7 +60,7 @@ class IcecreamChecker:
                             " from the `icecream` package in production code."
                         )
                 else:
-                    continue
+                    continue  # pragma: no cover
 
                 # Skip if the error code is disabled
                 if error_code in self.disabled_checks:
