@@ -11,11 +11,15 @@
 <a href="https://github.com/maekind/flake8-ic"><img src="https://img.shields.io/github/last-commit/maekind/flake8-ic?color=black&style=for-the-badge&label=last commit ⏳" hspace="5" vspace="2"></a>
 <br>
 <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python%20versions%20🐍-3.11%20|%203.12%20|%203.13-lightblue?style=for-the-badge" hspace="5" vspace="2"></a>
+<br>
+<a href="https://github.com/maekind/flake8-ic/stargazers"><img src="https://img.shields.io/github/stars/maekind/flake8-ic?style=for-the-badge&label=starts ⭐" hspace="5" vspace="2"></a>
 </p>
 
 # 🌟 flake8-ic
 
 A **Flake8 plugin** that helps detect the usage of the `ic()` function from the `icecream` package in your codebase.
+
+If you think this plugin is useful, please consider giving it a star by clicking on the badge! ⭐
 
 ---
 
