@@ -122,3 +122,5 @@ A big thank you to everyone who contributed to this project! 💖
 ## 📧 Contact
 
 (c) 2025, Created with ❤️ by [Marco Espinosa](mailto:marco@marcoespinosa.com)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K7O6UWZ)
